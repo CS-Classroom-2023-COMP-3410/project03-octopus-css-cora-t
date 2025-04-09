@@ -1,0 +1,112 @@
+* {
+  /* make all fonts a sans serif */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Make entire background weird grayish */
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+/* make blueish, viewport width, noo margins, center things, give a little padding around text, and make the text white to stand out */
+#header {
+  background-color: #3171de;
+  width: 100vw;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+/* Makes title bigger and no bottom margin so close to little title text */
+h1 {
+  font-size: 2.25rem;
+  margin-bottom: 0px;
+}
+
+/* Makes header text italic and gives it a little space */
+#header > p {
+  font-style: italic;
+  margin: 0.25rem;
+}
+
+#main-content {
+    margin-left: 1rem;
+}
+
+#main-content h2,
+#main-content > h3 {
+  text-transform: uppercase;
+}
+
+#main-content > p {
+  margin: 0.5rem 0;
+}
+
+h3 {
+  margin-top: 0%;
+  font-weight: bold;
+}
+
+h4 {
+    margin-bottom: 0px;
+}
+
+.important {
+    color: #eb5428;
+    font-weight: bold;
+}
+
+ol > li {
+    padding: .25rem;
+}
+
+img {
+    position: relative;
+    float: right;
+    border: 0.2rem;
+    border-color: #7715dd;
+    border-style: solid;
+    margin: 1rem 2rem;
+    width: 75px;
+}
+
+#quiz-section {
+    background-color: #e9f7fe;
+    border: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    padding: 1em;
+    margin-top: 2rem;
+ }
+
+ #quiz-section > h2 {
+    margin-top: 0rem;
+ }
+
+ input {
+    margin-bottom: .25rem;
+ }
+
+ #species-table > h2 {
+    margin-bottom: 0;
+ }
+
+th {
+    background-color: #999999;
+    color: white;
+    text-align: left;
+    padding: .5rem 0;
+}
+
+td {
+    padding: .5rem;
+}
+
+#footer {
+    background-color: #cccccc;
+    width: 100vw;
+    text-align: center;
+    padding: .5rem;
+    margin: 2rem 0;
+}
